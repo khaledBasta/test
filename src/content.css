@@ -1,0 +1,22 @@
+.fade-enter {
+  opacity: 0.01;
+  /* max-height: 0; */
+}
+
+.fade-enter-active {
+  opacity: 1;
+  /* max-height: 500px;  */
+  /* Adjust this value based on your content height */
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+  /* max-height: 500px; Adjust this value based on your content height */
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  /* max-height: 0; */
+  transition: opacity 300ms ease-in;
+}
